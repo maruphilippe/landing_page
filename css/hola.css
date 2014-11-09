@@ -60,3 +60,11 @@
 	text-align: center;
 	color: #ffffff;
 }
+
+/* FOOTER */
+
+.footer .container-fluid {
+	width: 1900px;
+	background-color: #333;
+}
+
