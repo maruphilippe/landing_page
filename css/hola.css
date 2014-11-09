@@ -1,3 +1,54 @@
+
+/* Aquí empieza navbar */
 .navbar {
 	min-height: 75px;
+}
+.navbar-default{
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+.navbar-right{
+	float:right!important;
+	margin-right: -15px;
+	margin-top: 15px;
+}
+
+/*ESCENCIAS*/
+
+.escencia {
+	background-color: #ffffff;
+	padding-top: 80px;
+}
+.escencia .header{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.escencia .header h3{
+	color: #5b5b5b;
+}
+.thumbnail:hover{
+	height: 290px;
+	width: 250px;
+	background-color: rgba(35, 161, 161, 0.9);
+}
+.thumbnail .caption:hover p {
+	color: #ffffff;
+}
+.thumbnail{
+	height: 290px;
+	border: 0;
+}
+.thumbnail .circle{
+	border-radius: 50%;
+	background-color: #f7f7f7;
+	width: 155px;
+	height: 155px;
+	margin-top: 20px;
+	margin-left:40px;
+}
+.caption p {
+	font-size: 16px;
+	margin-top: 15px;
+	text-align: center;
+	color: #ffffff;
 }
