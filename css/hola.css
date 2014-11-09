@@ -21,6 +21,15 @@
 
 }
 
+#slider1 img {
+	background-image: url(img/slider1.jpg);
+	background-position:bottom; center;
+	width: 100%;
+	/*background-size: cover! important;*/
+	background-attachment: fixed!important;
+}
+
+
 /*ESCENCIAS*/
 
 .escencia {
@@ -64,7 +73,14 @@
 /* FOOTER */
 
 .footer .container-fluid {
-	width: 1900px;
 	background-color: #333;
+	height: 102px;
+
+}
+.footer img{
+	margin-top: 20px;
+}
+.footer p{
+	color: #ffffff;
 }
 
