@@ -71,7 +71,6 @@
 }
 
 /* FOOTER */
-<<<<<<< HEAD
 
 .footer .container-fluid {
 	background-color: #333;
@@ -85,10 +84,9 @@
 	color: #ffffff;
 }
 
-=======
+
 .footer {
 	width: 100%;
 	padding: 1.5em 1em 1em 1em;
 	background-color: #333;
 }
->>>>>>> FETCH_HEAD
