@@ -62,9 +62,8 @@
 }
 
 /* FOOTER */
-
-.footer .container-fluid {
-	width: 1900px;
+.footer {
+	width: 100%;
+	padding: 1.5em 1em 1em 1em;
 	background-color: #333;
 }
-
