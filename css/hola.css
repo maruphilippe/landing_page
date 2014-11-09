@@ -13,6 +13,14 @@
 	margin-top: 15px;
 }
 
+/* CAROUSEL */
+
+.carousel-caption .jumbotron {
+	text-align: center;
+	background-color: transparent;
+
+}
+
 /*ESCENCIAS*/
 
 .escencia {
