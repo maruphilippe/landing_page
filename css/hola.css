@@ -87,7 +87,16 @@
 }
 
 /* CONTACTO*/
+#contacto {
+	background-color: #EDEDED;
+}
+
+#contacto form {
+	margin: 3em auto;
+}
+
 #contacto .header h3{
+	margin-top: 2em;
 	color: #a3a3a3;
 	text-align:center;
 	margin-bottom:30px;
