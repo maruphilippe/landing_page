@@ -69,7 +69,13 @@
 	text-align: center;
 	color: #ffffff;
 }
+.thumbnail .circle img{
+	right:50%;
+	margin-top: 13px;
+	margin-left: 20px;
 
+
+}
 
 /* FOOTER */
 
