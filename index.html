@@ -176,6 +176,7 @@
 					</div>
 				</form>
 			</div>
+<<<<<<< HEAD
 		</div>
 	</div><!-- Termina Contacto -->
 
@@ -192,6 +193,29 @@
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>	
+=======
+			</div>
+		</div><!-- Termina Contacto -->
+		<?php
+		// check for a successful form post
+		if (isset($_GET['s'])) echo "<br><div class=\"alert alert-success bold col-lg-10 \">".$_GET['s']."</div>";
+		// check for a form error
+		elseif (isset($_GET['e'])) echo "<br><div class=\"alert alert-danger bold col-lg-10 \">".$_GET['e']."</div>";
+		?>	
+		<!-- Footer -->
+		<div class="footer">
+			<div class="container">
+				<img src="img/logob.png">
+				<p class="texto-footer"> <small>Todos los derechos reservados</small>
+				</p>
+			</div>
+		</div><!--  End Footer  -->
+		
+		<!-- Carga de Javascripts al final para evitar carga lenta -->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>	
+>>>>>>> FETCH_HEAD
 
 </body>
 </html>
