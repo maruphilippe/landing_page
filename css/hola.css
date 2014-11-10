@@ -24,13 +24,11 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-
-
 #slider1 { background-image: url('../img/slider1.jpg'); }
 #slider2 { background-image: url('../img/slider2.jpg'); }
 
 .slider-bg {
-	min-height: 400px !important;
+	min-height: 800px !important;
   width: 100%;
   background-size: contain !important;
   background-size: cover!important;
@@ -51,8 +49,8 @@
 #escencia .header h3{
 	color: #a3a3a3;
 	text-align:center;
-	margin-top:50px;
-	margin-bottom:20px;
+	margin-top:150px;
+	margin-bottom:10px;
 	font-family: 'Montserrat', sans-serif;
 }
 .thumbnail:hover{
