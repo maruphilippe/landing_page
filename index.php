@@ -164,18 +164,40 @@
 			<div class="col-sm-12 col-lg-6 col-lg-offset-3">
 				<form class="form" method="POST" action="contact-form-submission.php" >
 
-					<input type="text" class="form-control" placeholder="Nombre Completo">
-					
-					<input type="text" class="form-control" placeholder="Correo Electrónico">
-					<textarea class="form-control" rows="6" placeholder="Escriba el mensaje aquí..."></textarea>
-					
-					<div class="form-actions">
-						<input type="hidden" name="save" value="contact">
-						<button type="submit" class="btn btn-md boton">
-							Enviar
-						</button>
+								<input 	type="text" 
+										class="form-control" 
+										name="contact_name" 
+										id="nombre" 
+										placeholder=" Ejemplo: Juan Perez..." required>
+							
+								<input 	type="text" 
+										class="form-control" 
+										type="email" 
+										name="contact_email" 
+										id="email" 
+										placeholder=" Ejemplo: nombre@correo.com.mx..." required>
+
+								<input 	type="text" 
+										class="form-control" 
+										name="contact_telefono" 
+										id="telefono" 
+										placeholder=" Ejemplo: 811-555-1234..." >
+
+								<textarea 	class="form-control" 
+											rows="6" 
+											name="contact_message" 
+											id="mensaje" 
+											placeholder="Escriba su mensaje en este espacio..." required>
+								</textarea>
+							
+							<!-- Boton de Envio -->
+							<div class="form-actions">
+								<input type="hidden" name="save" value="contact">
+								<button type="submit" class="btn btn-md boton">Enviar</button>
+							</div>
+				</form>					
 					</div>
-				</form>
+
 			</div>
 		</div><!-- Termina Contacto -->
 		</div>
