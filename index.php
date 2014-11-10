@@ -161,9 +161,9 @@
 			</div>
 					<?php
 		// check for a successful form post
-		if (isset($_GET['s'])) echo "<br><div class=\"alert bold col-lg-10 \">".$_GET['s']."</div>";
+		if (isset($_GET['s'])) echo "<br><div class=\"alert bold col-lg-10 \" style=\"text-align:center;\">".$_GET['s']."</div>";
 		// check for a form error
-		elseif (isset($_GET['e'])) echo "<br><div class=\"alert alert-danger bold col-lg-10 \">".$_GET['e']."</div>";
+		elseif (isset($_GET['e'])) echo "<br><div class=\"alert alert-danger bold col-lg-10 \" style=\"text-align:center;\">".$_GET['e']."</div>";
 		?>	
 			<!-- Primer Columna -->
 			<div class="col-sm-12 col-lg-6 col-lg-offset-3">
