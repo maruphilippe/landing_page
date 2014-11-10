@@ -159,7 +159,12 @@
 			<div class="header">
 				<h3>CONTACTO</h3>
 			</div>
-			
+					<?php
+		// check for a successful form post
+		if (isset($_GET['s'])) echo "<br><div class=\"alert alert-success bold col-lg-10 \">".$_GET['s']."</div>";
+		// check for a form error
+		elseif (isset($_GET['e'])) echo "<br><div class=\"alert alert-danger bold col-lg-10 \">".$_GET['e']."</div>";
+		?>	
 			<!-- Primer Columna -->
 			<div class="col-sm-12 col-lg-6 col-lg-offset-3">
 				<form class="form" method="POST" action="contact-form-submission.php" >
@@ -201,12 +206,7 @@
 			</div>
 		</div><!-- Termina Contacto -->
 		</div>
-		<?php
-		// check for a successful form post
-		if (isset($_GET['s'])) echo "<br><div class=\"alert alert-success bold col-lg-10 \">".$_GET['s']."</div>";
-		// check for a form error
-		elseif (isset($_GET['e'])) echo "<br><div class=\"alert alert-danger bold col-lg-10 \">".$_GET['e']."</div>";
-		?>	
+
 		<!-- Footer -->
 		<div class="footer">
 			<div class="container">
