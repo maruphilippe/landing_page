@@ -2,7 +2,7 @@
 
 // check for form submission - if it doesn’t exist then send back to contact form
 if (!isset($_POST["save"]) || $_POST["save"] !="contact") {
-	header("Location: contacto.php"); exit;
+	header("Location: index.php"); exit;
 }
 // get the posted data
 $name = $_POST["contact_name"];
@@ -28,7 +28,7 @@ elseif (empty($message))
 
 // check if an error was found - if there was, send the user back to the form
 if (isset($error)) {
-	header("Location: contacto.php?e=".urlencode($error)); exit;
+	header("Location: index.php?e=".urlencode($error)); exit;
 }
 
 // write the email content
@@ -38,8 +38,8 @@ $email_content .= "Telefono: $phone_address\n";
 $email_content .= "Mensaje:\n\n$message";
 
 // send the email
-mail ("info@conttax.com.mx", "Nuevo mensaje directo desde Conttax.com.mx", $email_content);
+mail ("maru.philippe@gmail.com", "Nuevo mensaje directo desde io-consultores.com.mx", $email_content);
 
 // send the user back to the form
-header("Location: contacto.php?s=".urlencode("Su mensaje directo ha sido enviado. ¡Gracias!.")); exit;
+header("Location: index.php?s=".urlencode("Su mensaje directo ha sido enviado. ¡Gracias!.")); exit;
 ?>
