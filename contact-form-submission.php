@@ -38,7 +38,7 @@ $email_content .= "Telefono: $phone_address\n";
 $email_content .= "Mensaje:\n\n$message";
 
 // send the email
-mail ("maru.philippe@gmail.com", "Nuevo mensaje directo desde io-consultores.com.mx", $email_content);
+mail ("mr.xusangel@gmail.com ", "Nuevo mensaje directo desde io-consultores.com.mx", $email_content);
 
 // send the user back to the form
 header("Location: index.php?s=".urlencode("Su mensaje directo ha sido enviado. ¡Gracias!.")); exit;
