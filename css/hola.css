@@ -28,7 +28,7 @@
 #slider2 { background-image: url('../img/slider2.jpg'); }
 
 .slider-bg {
-	min-height: 800px !important;
+	min-height: 600px !important;
   width: 100%;
   background-size: contain !important;
   background-size: cover!important;
@@ -49,8 +49,8 @@
 #escencia .header h3{
 	color: #a3a3a3;
 	text-align:center;
-	margin-top:150px;
-	margin-bottom:10px;
+	margin-top:100px;
+	margin-bottom:70px;
 	font-family: 'Montserrat', sans-serif;
 }
 .thumbnail:hover{
