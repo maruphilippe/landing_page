@@ -162,7 +162,8 @@
 			
 			<!-- Primer Columna -->
 			<div class="col-sm-12 col-lg-6 col-lg-offset-3">
-				<form class="form">
+				<form class="form" method="POST" action="contact-form-submission.php" >
+
 					<input type="text" class="form-control" placeholder="Nombre Completo">
 					
 					<input type="text" class="form-control" placeholder="Correo Electrónico">
