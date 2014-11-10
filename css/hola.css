@@ -29,7 +29,7 @@
   width: 100%;
   background-size: contain !important;
   background-size: cover!important;
-  background-attachment: fixed !important;
+/*  background-attachment: fixed !important;*/
   background-position: bottom center;
 }
 
