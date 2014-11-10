@@ -1,4 +1,7 @@
 
+/* USO DE GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
 /* Aquí empieza navbar */
 .navbar {
 	min-height: 75px;
@@ -44,8 +47,12 @@
 	margin-bottom: 70px;
 	text-align: center;
 }
-.escencia .header h3{
-	color: #5b5b5b;
+#escencia .header h3{
+	color: #a3a3a3;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:20px;
+	font-family: 'Montserrat', sans-serif;
 }
 .thumbnail:hover{
 	height: 290px;
@@ -77,10 +84,16 @@
 	right:50%;
 	margin-top: 13px;
 	margin-left: 20px;
+	padding-left: 3px;
 }
 
+/* CONTACTO*/
+#contacto .header h3{
+	color: #a3a3a3;
+	text-align:center;
+	margin-bottom:30px;
+	font-family: 'Montserrat', sans-serif;
 }
-
 /* FOOTER */
 
 .footer .container-fluid {
@@ -93,6 +106,7 @@
 }
 .footer p{
 	color: #ffffff;
+	text-align:right;
 }
 
 
