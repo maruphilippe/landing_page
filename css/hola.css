@@ -18,11 +18,13 @@
 
 /* CAROUSEL */
 
-.carousel-caption .jumbotron {
+.carousel-caption .jumbotron  {
 	text-align: center;
 	background-color: transparent;
-
+	font-family: 'Montserrat', sans-serif;
 }
+
+
 
 #slider1 { background-image: url('../img/slider1.jpg'); }
 #slider2 { background-image: url('../img/slider2.jpg'); }
@@ -35,7 +37,6 @@
 /*  background-attachment: fixed !important;*/
   background-position: bottom center;
 }
-
 
 /*ESCENCIAS*/
 
