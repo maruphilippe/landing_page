@@ -103,11 +103,12 @@
 
 }
 .footer img{
-	margin-top: 20px;
+	margin-top: 10px;
 }
-.footer p{
-	color: #ffffff;
-	text-align:right;
+.texto-footer{
+	color: #a3a3a3;
+	float: right;
+	margin-top: 30px;
 }
 
 
